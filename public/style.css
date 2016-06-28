@@ -1,0 +1,177 @@
+
+
+body {
+  font-family: 'Amatic SC', sans-serif;
+  margin: 0;
+}
+
+
+a {
+  text-align: center;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+
+img {
+  display: inline-block;
+  align: center;
+  border: 2px solid transparent;
+  border-color: #fff;
+  max-width: 100%;
+  margin-left: 5px;
+}
+
+
+h1 {
+  margin: 0 0 1em 0;
+  padding-left: 5px;
+}
+
+p {
+  font-size: 1.05em;
+  padding-left: 5px;
+  clear: both;
+
+}
+
+form {
+  padding-left: 5px;
+  font-size: 1.05em;
+}
+
+/************************** 
+HEADING
+***************************/
+
+
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 40px 0 0 0;
+  width: 100%;  
+}
+
+
+h1 {
+  font-family: 'Amatic SC', sans-serif;
+  margin: 0px 0;
+  font-size: 3.25em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 2.25em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/************************** 
+NAVIGATION
+***************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 28px 0 0;  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 30px;
+  padding: 0;
+}
+
+
+nav li {
+  display: inline-block;
+}
+
+
+nav a {
+  font-weight: 800;
+  padding: 15px 45px;
+}
+
+
+
+/************************** 
+PAGE ABOUT
+***************************/
+
+iframe {
+  max-height: 100%;
+  max-width: 100%;
+  display: inline-block;
+  margin: 5px auto;
+  border: 2px solid white;
+  float: left;
+  clear: both;
+}
+
+
+
+
+/************************** 
+COLOURS
+***************************/
+
+
+
+/* site body */
+body {
+  background-color: #b2d4de;
+  color: #999;
+}
+
+/* blue header */
+header {
+  
+  background: #1c7f9b;
+  border-color: #40aac8;
+}
+
+/* nav background on mobile */
+nav {
+  background: #40aac8;
+}
+
+/* logo text */
+h1, h2 {
+color: #fff;
+}
+
+/* links */
+a {
+  color: #fff;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #1c7f9b;
+}
+
+h3 {
+  color: #1c7f9b;
+}
+
+p {
+  color: #1c7f9b;
+}
+
+li {
+  color: #1c7f9b;
+}
+
+form {
+  color: #1c7f9b;
+}
